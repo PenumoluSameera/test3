@@ -1,0 +1,230 @@
+    .navbar{
+    background-color: black;
+    height:fit-content;
+    display: flex;
+    padding: 20px;
+}
+.logo{
+    text-transform: uppercase;
+    color: rgb(24, 158, 236);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.navbar a{
+    margin-left: 20%;
+    margin-top: 20px;
+    color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: blue;
+}.navbarme{
+    display:none;
+}
+.marks{
+  background-size: cover;
+  height: 500px;
+  margin: 10px;
+    background-image:url("https://res.cloudinary.com/da5bfmwzj/image/upload/v1740654763/babu_efwy4m.jpg");
+}
+.marks P{
+    margin: 0px;
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    color: rgb(244, 244, 247);
+    text-align: right;
+    padding-right: 15%;
+    padding-top: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.products{
+    width: fit-content;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.product-image{
+    padding: 10px;
+    margin: 30px;
+    padding-inline: 5px;
+    width: 235px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px black;
+}
+.product-image img{
+    height:320px;
+}
+.product-img{
+    width: 450px;
+    margin-top: 10px;
+    border: 10px;
+    padding-left: 100px;
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.product-ime{
+    padding: 10px;
+    margin: 12px;
+    padding-inline: 10px;
+    width: 235px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px black;
+}
+.product-ime img{
+    height:320px;
+}
+.contact{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(202, 44, 44);
+    border: 0ch;
+    margin: 0px;
+    text-shadow: 1px 1px 1px rgb(0,0,0);
+}
+.collection{
+    color: rgb(31, 19, 1);
+     font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.content{
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color:rgb(17, 17, 1) ;
+   text-shadow: 2px 2px 2px black;
+}
+#about{
+    background-color: black;
+    margin-top: 0px;
+    padding: 30px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+.collect{
+    color: rgb(226, 222, 216);
+    text-shadow: 1px 1px 1xp black;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+@media (max-width:900px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display:block;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .mob-navbar{
+        background-color: black;
+        height: fit-content;
+        padding: 10px;
+        color:white;
+        text-align: center;
+    }
+    .mob-navbar-bg{
+        background-image: url("https://res.cloudinary.com/da5bfmwzj/image/upload/v1740654763/babu_efwy4m.jpg");
+        background-size: cover;
+        height:500px;
+        padding: 10px;
+        width: vw;
+    }
+    .mob-navbar-backgrd{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 50px;
+       padding-top:250px;
+       text-align: center;
+       color: white;
+       text-shadow: 2px 3px 3px black;
+    }
+    .mob-contact{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .mob-products{
+        width:fit-content;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .mob-product-image{
+        padding:10px ;
+        margin: 10px;
+        padding-inline:5px;
+        width: fit-content;
+        height: fit-content;
+        border-radius: 10px;
+        box-shadow: 2px 3px 3px black;
+    }
+    .mob-product-image img{
+      height: 200px;
+      width: 150px;
+    }
+    .mob-collection{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .mob-price{
+        text-align: center;
+        font-size: 20px;
+    }
+    .mob-newly{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+    }
+    .mob-product-img{
+        width:fit-content;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+    }
+    .mob-product-ime{
+        padding:10px ;
+        margin: 10px;
+        padding-inline:5px;
+        width: fit-content;
+        height: fit-content;
+        border-radius: 10px;
+        box-shadow: 2px 3px 3px black;
+    }
+    .mob-product-ime img{
+        height: 250px;
+      width: 200px;
+    }
+    .mob-about-me{
+        background-color: black;
+    }
+    .mob-about{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        color: rgb(228, 220, 220);
+        text-shadow: 2px 3px 3px black;
+    }
+    .mob-collect{
+        color: white;
+        padding: 30px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+} 
